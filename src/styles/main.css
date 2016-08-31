@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 13px 'Lato', Arial, Verdana, sans-serif;
+  font-weight: 400;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f4f4f4;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+.main {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.product_summary_collection {
+  float: left;
+  width: 80%;
+}
+
+.product_summary {
+  background-color: #fff;
+  width: 25%;
+  float: left;
+  min-width: 220px;
+  margin-right: 20px;
+  padding: 15px;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.product_summary .product_image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product_summary .product_price {
+  color: green
+}
+
+.product_summary .product_title {
+  color: #333333;
+  font-size: 19px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.product_summary .add_to_basket {
+  position: absolute;
+  height: 40px;
+  background-color: #0a89af;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor : pointer;
+}
+
+.product_summary .add_to_basket:hover {
+  opacity: 0.8;
+}
+
+.basket {
+  float: left;
+  width: 20%;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.basket > h1 {
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.products > tbody > tr > td > a{
+ cursor : pointer; 
+}
+
+.basket .products {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.basket .products th {
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  text-align: center;
+  color: #eee;
+  font-size: 15px;
+  padding: 5px;
+  padding-bottom: 25px;
+}
+
+.footer a{
+  font-style: none;
+}
+
+.test_instructions {
+  background-color: #333;
+  border-top: 1px solid #000;
+  color: #eee;
+  font-size: 16px;
+  padding: 35px;
+  padding-bottom: 55px;
+  text-shadow: 1px 1px #000;
+  box-shadow: inset 0px -29px 43px -27px black;
+}
+
+.test_instructions h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.test_instructions ul {
+  list-style: disc inside none;
+  padding-left: 25px;
+}
+
+.test_instructions li {
+  margin-bottom: 3px;
+}
