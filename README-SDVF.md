@@ -16,17 +16,25 @@ React app + Flux architecture
 
 `client.js`
 
+##Extensibility
+
+It is really easy to extend this app. Let's analyze the following cases:
+
+###Add a new page
+
+###Retrieve the products from a server
+
 ##Pages
 
 ##Dispatcher
 
 ##Actions
 
-###Components
+##Components
 
-###Stores
+##Stores
 
-####BasketStore
+###BasketStore
 
 
-####ProductStore
+###ProductStore
