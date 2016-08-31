@@ -34,10 +34,13 @@ class BasketStore extends  EventEmitter{
 
   removeProductFromBasket(id){
     
+    var price = 0;
+    
     if(!this.basketProducts[id]){
       return;
     }
-    var price = this.basketProducts[id].product.price;
+
+    price = this.basketProducts[id].product.price;
     this.basketProducts[id].quantity--;
     if(this.basketProducts[id].quantity == 0){
       delete this.basketProducts[id];

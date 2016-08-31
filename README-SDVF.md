@@ -24,6 +24,9 @@ It is really easy to extend this app. Let's analyze the following cases:
 
 ###Retrieve the products from a server
 
+
+#Project Stracture
+
 ##Pages
 
 ##Dispatcher
@@ -35,6 +38,5 @@ It is really easy to extend this app. Let's analyze the following cases:
 ##Stores
 
 ###BasketStore
-
 
 ###ProductStore
