@@ -111,8 +111,9 @@ p {
   padding-bottom: 25px;
 }
 
-.footer a{
+.footer > a{
   font-style: none;
+  color: white;
 }
 
 .test_instructions {
