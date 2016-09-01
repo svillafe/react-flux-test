@@ -1,3 +1,5 @@
+"use strict";
+
 import AppDispatcher from "../dispatcher/AppDispatcher";
 
 export function addProductToBasket(productId){
@@ -16,8 +18,18 @@ export function removeProductFromBasket(productId){
 
 export function loadProducts(){
 	
-  //AppDispatcher.dispatch({type : "FETCH_PRODUCTS"});
+  
+  // In order to retrieve products from a server we could do:
+  // I notify the app that I start fetching products
+  // AppDispatcher.dispatch({type : "FETCH_PRODUCTS"}); 
   //
+  //$.get( "ajax/test.html", function( data ) {
+  // I notify the app that I received the products
+  //  AppDispatcher.dispatch({
+  //      type : "RECEIVE_PRODUCTS", 
+  //      products : data});
+  // });
+  
   AppDispatcher.dispatch({
     type : "RECEIVE_PRODUCTS", 
     products : [
