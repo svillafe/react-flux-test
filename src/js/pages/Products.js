@@ -26,13 +26,6 @@ export default class Products extends React.Component {
 		const { products } = this.state;
 		const ProductComponents = products.map((product , i) => { return <Product key = {i} product = {product}/>}); 
 		
-    
-		// if(beeHit != null){
-		// 	message = (<h1>The bee number {beeHit} was hit.</h1>)
-		// }else{
-		// 	message = (<h1>Click the Hit Button to Hit a Bee.</h1>)
-		// }
-
 		return (
 			<section class="main">
         <section class="product_summary_collection">
